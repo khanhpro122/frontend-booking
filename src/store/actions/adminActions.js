@@ -100,7 +100,6 @@ export const fetchRoleFailed = () => ({
 export const createUserRedux = (data) => {
     return async (dispatch, getState) => {
         try {
-            console.log(data)
             let res = await createUserService(data)
             
             if(res && res.data.errCode === 0) {

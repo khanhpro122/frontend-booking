@@ -104,7 +104,6 @@ class HomeHeader extends Component {
     let result;
     if (language === languages.VI) {
       let random = Math.floor(Math.random() * 3);
-      console.log(random);
       if (random === 1) {
         result = "Tìm bệnh viện";
       } else if (random === 2) {

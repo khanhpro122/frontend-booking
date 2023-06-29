@@ -33,7 +33,6 @@ class TableManageUser extends Component {
     this.props.handleEditUser(user);
   };
   handleEditorChange({ html, text }) {
-    console.log("handleEditorChange", html, text);
   }
 
   handleSearch = (e) => {
